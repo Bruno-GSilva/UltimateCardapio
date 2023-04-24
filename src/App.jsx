@@ -12,7 +12,7 @@ export default function App() {
         <CardInfo />
         <h3 className="w-1/2 mt-10 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque minus animi eligendi? Aut sequi numquam voluptatem, atque, ut est dignissimos facere soluta vero optio, iste minus libero! Totam, sed quaerat.</h3>
       </section>
-      <section className="w-full h-screen flex justify-center items-center bg-black">
+      <section className="w-full h-screen flex justify-center items-center bg-black" id="Menu">
         <CardFoods/>
         <CardFoods/>
         <CardFoods/>

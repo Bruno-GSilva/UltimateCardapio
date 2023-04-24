@@ -1,4 +1,5 @@
 import '/src/components/Login/index.css'
+import { Link } from 'react-router-dom';
 
 function Login() {
     return (
@@ -43,7 +44,7 @@ function Login() {
                 </button>
             </div>
             <p className="signup">Don't have an account?
-                <a rel="noopener noreferrer" href="#" className="">Sign up</a>
+                <Link rel="noopener noreferrer" to="/Dashboard" className="">Sign up</Link>
             </p>
         </div>
         </>

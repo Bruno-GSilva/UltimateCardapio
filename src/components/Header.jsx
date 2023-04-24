@@ -9,12 +9,12 @@ export default function Header() {
                 <img src="/src/assets/Logotipo.png" className="w-full h-full object-cover scale-150" />
             </div>
             <ul className="flex gap-4 text-2xl text-white font-semibold">
-                <li><a href="#" className="hover:text-amber-500">Home</a></li>
-                <li><a href="#" className="hover:text-amber-500">Menu</a></li>
-                <li><a href="#" className="hover:text-amber-500">Contato</a></li>
-                <li><a href="#" className="hover:text-amber-500">Sobre Nos</a></li>
+                <Link to="/" className="text-2xl text-white font-semibold hover:text-amber-500">Home</Link>
+                <a href="#Menu" className="text-2xl text-white font-semibold hover:text-amber-500">Menu</a>
+                <a href="#Footer" className="text-2xl text-white font-semibold hover:text-amber-500">Contato</a>
+                <a href="#Footer" className="text-2xl text-white font-semibold hover:text-amber-500">Sobre Nos</a>
             </ul>
-            <Link to="/Dashboard" className="text-2xl text-white font-semibold hover:text-amber-500">Login</Link>
+            <Link to="/Login" className="text-2xl text-white font-semibold hover:text-amber-500">Login</Link>
         </header>
     )
 }
