@@ -1,16 +1,17 @@
 export default  function Header() {
 
     return (
-        <header className="w-full flex justify-between items-center px-5 bg-sky-950">
-            <div className="w-10 h-10 my-2 rounded-md bg-white">
+        <header className="w-full flex justify-between items-center px-10 py-2 bg-blue-950">
+            <div className="w-20 my-2">
+                <img src="/src/assets/Logotipo.png" className="w-full h-full object-cover scale-150"/>
             </div>
-            <ul className="flex gap-4 text-white font-semibold">
+            <ul className="flex gap-4 text-2xl text-white font-semibold">
                 <li><a href="#" className="hover:text-amber-500">Home</a></li>
                 <li><a href="#" className="hover:text-amber-500">Menu</a></li>
                 <li><a href="#" className="hover:text-amber-500">Contato</a></li>
-                <li><a href="#" className="hover:text-amber-500">Login</a></li>
+                <li><a href="#" className="hover:text-amber-500">Sobre Nos</a></li>
             </ul>
-
+                <p><a href="./src/pages/Dashboard.jsx" className="text-2xl text-white font-semibold hover:text-amber-500">Login</a></p>
         </header>
     )
   }
