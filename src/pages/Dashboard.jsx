@@ -1,10 +1,14 @@
 import Header from "../components/Header";
+import Login from "../components/Login";
 
 function Dashboard() {
     return (
-        <section className="w-full h-screen flex flex-col justify-center items-center bg-black">
-            <Header/>
-        </section>
+        <>
+            <Header />
+            <section className="w-full h-screen flex justify-center items-center bg-black">
+            <Login/>
+            </section>
+        </>
     );
 }
 
